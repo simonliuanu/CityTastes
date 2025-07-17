@@ -1,2 +1,42 @@
+# IDE files
 .idea/
+*.iml
+*.iws
+*.ipr
+
+# OS files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Android
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+local.properties
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.log
+
+# Firebase
+google-services.json
+.firebase/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Version control
+.svn/
+.hg/
+.bzr/
