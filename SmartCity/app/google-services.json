@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:930288947584:android:232cc9431f067a1071f165",
+        "mobilesdk_app_id": "1:930288947584:android:e12a4ed6ad897cf771f165",
         "android_client_info": {
-          "package_name": "com.example.citytastes"
+          "package_name": "com.example.smartcity"
         }
       },
       "oauth_client": [],
