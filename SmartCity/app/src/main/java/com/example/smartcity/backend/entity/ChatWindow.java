@@ -20,7 +20,6 @@ import java.util.List;
  * Represents a chat window in the chat application.
  * This class holds the details of a chat window, including the ID,
  * participants, last message, and timestamp of the last activity.
- * @author Rongze Gao(u7841935)
  */
 public class ChatWindow {
     String chatWindowId;

@@ -8,7 +8,6 @@ import java.util.List;
  * It uses the Levenshtein distance algorithm to find the closest valid token.
  * It is used to correct user input for search queries.
  *
- * @author Simon Liu (u7761758)
  */
 public class Parser {
 
@@ -17,7 +16,6 @@ public class Parser {
     /**
      * Constructor for Parser class.
      *
-     * @author Simon Liu (u7761758)
      * @param validTokens A list of valid tokens
      */
     public Parser(List<String> validTokens) {
@@ -27,7 +25,6 @@ public class Parser {
     /**
      * Parses a list of tokens and corrects any misspelled tokens.
      *
-     * @author Simon Liu (u7761758)
      * @param tokens The list of tokens to parse
      * @return A list of corrected tokens
      */
@@ -45,7 +42,6 @@ public class Parser {
      * It calculates the Levenshtein distance between the given token and each valid token.
      * It returns the valid token with the smallest distance.
      *
-     * @author Simon Liu (u7761758)
      * @param token The token to correct
      * @return The closest valid token
      */
@@ -70,7 +66,6 @@ public class Parser {
      * It uses dynamic programming to calculate the minimum number of single-character edits
      * (insertions, deletions, or substitutions) required to change one string into another.
      *
-     * @author Simon Liu (u7761758)
      * @param a The first string
      * @param b The second string
      * @return The Levenshtein distance between the two strings

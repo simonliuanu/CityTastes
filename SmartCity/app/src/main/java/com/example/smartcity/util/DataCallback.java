@@ -4,7 +4,6 @@ package com.example.smartcity.util;
  * This call back function used to implement
  * the restaurant list initializing
  * @param <T> The type of result
- * @author Shengzong Dai (u7811526)
  */
 
 public interface DataCallback<T> {

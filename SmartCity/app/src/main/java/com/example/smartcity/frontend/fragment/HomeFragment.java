@@ -41,7 +41,6 @@ import java.util.List;
  * The restaurant data is fetched from Firebase and stored in an AVL tree.
  * The search results are displayed in a ListView using ItemListAdapter.
  *
- * @author Simon Liu (u7761758)
  */
 public class HomeFragment extends Fragment {
 
@@ -59,7 +58,6 @@ public class HomeFragment extends Fragment {
     /**
      * Called to have the fragment instantiate its user interface view.
      *
-     * @author Simon Liu (u7761758)
      *
      * @param inflater The LayoutInflater object that can be used to inflate
      * any views in the fragment,
@@ -151,7 +149,6 @@ public class HomeFragment extends Fragment {
      * The RestaurantManager is used to search for restaurants based on user input.
      * It is called when the AVL tree is empty.
      *
-     * @author Simon Liu (u7761758)
      */
     private void fetchRestaurantDataFromFirebase() {
         Query query = FirebaseDatabase.getInstance()
@@ -186,7 +183,6 @@ public class HomeFragment extends Fragment {
      * It displays a toast message if no matching restaurants are found.
      * It is called when the search button is clicked.
      *
-     * @author Simon Liu (u7761758)
      */
     private void performSearch() {
         if (restaurantManager == null) {
@@ -230,7 +226,6 @@ public class HomeFragment extends Fragment {
      * Collects the valid tokens from the restaurant names in the AVL tree.
      * It calls the collectValidTokens method to traverse the AVL tree and tokenize each restaurant name.
      *
-     * @author Simon Liu (u7761758)
      * @return A list of valid tokens
      */
     private List<String> getValidTokens() {
@@ -245,7 +240,6 @@ public class HomeFragment extends Fragment {
      * It then adds each token to a list of valid tokens.
      * It is called by the getValidTokens method.
      *
-     * @author Simon Liu (u7761758)
      * @param node The current node in the AVL tree
      * @param validTokens A list of valid tokens
      */
@@ -273,7 +267,6 @@ public class HomeFragment extends Fragment {
      * It supports sorting by price (low to high, high to low) and rating (high to low, low to high).
      * If the price is unknown, it is set to 5 to make it the last ones to be displayed.
      *
-     * @author Simon Liu (u7761758)
      * @param results A list of search results
      */
     private void sortResults(List<Restaurant> results) {
@@ -310,7 +303,6 @@ public class HomeFragment extends Fragment {
      * It then notifies the adapter that the data set has changed.
      * It is called by the performSearch method.
      *
-     * @author Simon Liu (u7761758)
      * @param results A list of search results
      */
     private void updateSearchResults(List<Restaurant> results) {

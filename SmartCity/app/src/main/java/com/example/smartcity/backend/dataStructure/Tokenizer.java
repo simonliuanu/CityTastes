@@ -8,7 +8,6 @@ import java.util.List;
  * It splits the query string by whitespace and returns a list of tokens.
  * It is used to process user input for search queries.
  *
- * @author Simon Liu (u7761758)
  */
 public class Tokenizer {
     public List<String> tokenize(String query) {

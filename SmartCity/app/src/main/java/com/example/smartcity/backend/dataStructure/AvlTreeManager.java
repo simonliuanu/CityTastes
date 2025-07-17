@@ -7,7 +7,6 @@ import com.example.smartcity.backend.entity.Restaurant;
  * It ensures that there is only one instance of the AVL tree in the application.
  * It implements the Singleton design pattern.
  *
- * @author Simon Liu (u7761758)
  */
 public class AvlTreeManager {
     private static AvlTree<Restaurant> instance;

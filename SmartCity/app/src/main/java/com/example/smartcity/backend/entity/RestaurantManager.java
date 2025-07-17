@@ -15,7 +15,6 @@ import java.util.List;
  * It uses a Tokenizer and Parser to process user input for search queries.
  * It is used to search for restaurants based on user input.
  *
- * @author Simon Liu (u7761758)
  */
 public class RestaurantManager {
     private static RestaurantManager instance;
@@ -27,7 +26,6 @@ public class RestaurantManager {
      * Constructor for RestaurantManager class.
      * It initializes the AVL tree and the Tokenizer and Parser.
      *
-     * @author Simon Liu (u7761758)
      * @param tree        The AVL tree of restaurants
      * @param validTokens A list of valid tokens
      * @return An instance of the RestaurantManager class
@@ -42,7 +40,6 @@ public class RestaurantManager {
      * Gets the instance of the RestaurantManager class.
      * It ensures that there is only one instance of the RestaurantManager in the application.
      *
-     * @author Simon Liu (u7761758)
      * @param query        The search query
      * @param filterType The filter type
      * @return A list of restaurants that match the search query
@@ -69,7 +66,6 @@ public class RestaurantManager {
      * It returns only the restaurants that match the filter type.
      * If the filter type is "Type", it returns all the search results.
      *
-     * @author Simon Liu (u7761758)
      * @param results    The search results
      * @param filterType The filter type
      * @return A list of restaurants that match the filter type

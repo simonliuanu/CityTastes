@@ -1,7 +1,6 @@
 package com.example.smartcity.backend.observer;
 
 /**
- * @author Shengzong Dai (u7811526)
  */
 public interface LikeRestaurantObserver {
 

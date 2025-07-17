@@ -28,7 +28,6 @@ import java.util.List;
  * it shows the restaurant which is clicked and the comment of it
  * the comment will display automatically
  * and the username change to "Me" when user submit the his comment
- * @author Yuheng Li(u7810157)
  */
 public class CommentActivity extends AppCompatActivity implements View.OnClickListener {
     private ImageView restaurantPhoto;

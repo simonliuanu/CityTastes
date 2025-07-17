@@ -6,7 +6,6 @@ import java.util.Locale;
 
 /** Comment class is used to abstract the String of comment
  *  and get every elements in comment
- *  @author Yuheng Li(u7810157)
  */
 public class Comment {
     private String username;

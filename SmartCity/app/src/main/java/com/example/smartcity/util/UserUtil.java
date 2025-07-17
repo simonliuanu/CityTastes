@@ -20,7 +20,6 @@ import com.example.smartcity.backend.entity.User;
  * Utility class for handling operations related to the User entity.
  * This class provides methods to pass User information between activities
  * using Intents and to retrieve User objects from Intents.
- * @author Rongze Gao(u7841935)
  */
 public class UserUtil {
     /**

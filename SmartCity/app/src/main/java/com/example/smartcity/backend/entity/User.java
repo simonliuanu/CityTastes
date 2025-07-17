@@ -4,7 +4,6 @@ package com.example.smartcity.backend.entity;
  *  Represent a User object with name and password attributes, which corresponds
  *  to user properties stored in Firebase.
  *
- * @author Shengzong Dai (u7811526)
  */
 public class User {
 

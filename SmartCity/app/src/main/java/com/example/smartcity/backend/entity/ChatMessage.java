@@ -17,7 +17,6 @@ import com.google.firebase.Timestamp;
 /**
  * Represents a chat message in the chat application.
  * This class holds the message content, the user who sent it, and the timestamp of when it was sent.
- * @author Rongze Gao(u7841935)
  */
 public class ChatMessage {
     private String message;

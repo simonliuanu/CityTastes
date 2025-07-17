@@ -16,7 +16,6 @@ import java.util.List;
 
 /**
  * Implementation of the ItemDao interface to interact with Firebase database.
- * @author Shengzong Dai (u7811526)
  */
 public class ItemDaoImpl implements ItemDao{
 

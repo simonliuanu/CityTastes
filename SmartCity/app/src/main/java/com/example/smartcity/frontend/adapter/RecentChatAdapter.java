@@ -35,7 +35,6 @@ import com.firebase.ui.firestore.FirestoreRecyclerOptions;
  * Adapter for displaying recent chat windows in a RecyclerView.
  * This adapter binds chat window data to views for each chat item,
  * allowing users to see and interact with their recent chats.
- * @author Rongze Gao(u7841935)
  */
 public class RecentChatAdapter extends FirestoreRecyclerAdapter<ChatWindow, RecentChatAdapter.ChatWindowView> {
 

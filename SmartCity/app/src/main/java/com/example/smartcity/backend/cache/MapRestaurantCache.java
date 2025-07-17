@@ -10,7 +10,6 @@ import java.util.List;
  * This cache class is used for the subsequent loading of restaurants near the current location.
  * It stores cached restaurant data associated with specific location keys.
  *
- * @author Rongze Gao(u7841935)
  */
 public class MapRestaurantCache {
     private static MapRestaurantCache instance;

@@ -4,7 +4,6 @@ import com.example.smartcity.backend.entity.User;
 import com.example.smartcity.util.LoginCallback;
 
 /**
- * @author Shengzong Dai (u7811526)
  */
 public interface UserDao {
 

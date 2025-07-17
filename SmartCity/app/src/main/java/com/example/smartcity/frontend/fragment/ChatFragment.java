@@ -37,7 +37,6 @@ import com.google.firebase.firestore.Query;
  * ChatFragment is a Fragment that displays recent chat windows and allows users
  * to search for other users. It uses a RecyclerView to display chat windows
  * retrieved from a Firestore database.
- * @author Rongze Gao(u7841935)
  */
 public class ChatFragment extends Fragment {
 

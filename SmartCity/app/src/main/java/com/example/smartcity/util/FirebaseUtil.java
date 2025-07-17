@@ -27,7 +27,6 @@ import java.util.Arrays;
  * for accessing Firestore and Realtime Database references.
  * This utility class facilitates the implementation of chat functionalities
  * by providing methods to manage chat windows and messages.
- * @author Rongze Gao(u7841935)
  */
 public class FirebaseUtil {
 

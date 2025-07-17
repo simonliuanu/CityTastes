@@ -3,7 +3,6 @@ package com.example.smartcity.backend.factory;
 /**
  * CommentFactory is usage of factory design pattern
  * it is used to generate the comment and username
- * @author Yuheng Li(u7810157)
  */
 public class CommentFactory {
     public CommentItem getItem(String item){

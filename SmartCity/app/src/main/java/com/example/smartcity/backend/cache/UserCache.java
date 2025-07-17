@@ -4,7 +4,6 @@ package com.example.smartcity.backend.cache;
  * This cache class is used for storing the current user's information.
  * It provides methods to set and get the current user's name.
  *
- * @author Rongze Gao(u7841935)
  */
 public class UserCache {
     private static UserCache instance;

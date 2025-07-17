@@ -19,7 +19,6 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 /**
  * MainActivity manages navigation between fragments
  *
- * @author Tianfa Zhu u7615711
  */
 
 public class MainActivity extends AppCompatActivity {

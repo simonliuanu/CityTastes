@@ -44,7 +44,6 @@ import java.util.Arrays;
  * This activity handles the chat interface where users can send and receive messages
  * to and from each other. It initializes the chat window and displays chat messages
  * in real-time using Firestore.
- * @author Rongze Gao(u7841935)
  */
 public class ChatActivity extends AppCompatActivity {
 

@@ -11,7 +11,6 @@ import java.util.List;
  * This class implements the Container interface
  * and provides an iterator for retrieving pages of Restaurant objects.
  *
- * @author Shengzong Dai (u7811526)
  */
 public class RestaurantRepository implements Container {
 

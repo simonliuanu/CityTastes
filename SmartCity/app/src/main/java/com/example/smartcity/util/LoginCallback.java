@@ -2,7 +2,6 @@ package com.example.smartcity.util;
 
 /**
  * A callback interface used to handle the result of checking if a user exists.
- * @author Shengzong Dai (u7811526)
  */
 public interface LoginCallback {
     /**

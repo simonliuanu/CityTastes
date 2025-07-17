@@ -25,7 +25,6 @@ import com.example.smartcity.util.LoginCallback;
 /**
  * This activity use to implement login function
  *
- * @author: Shengzong Dai (u7811526)
  */
 public class LoginActivity extends AppCompatActivity {
 

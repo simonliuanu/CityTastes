@@ -38,7 +38,6 @@ import java.util.List;
  * Reference:
  *  Tencent cloud: https://cloud.tencent.com/developer/article/2042342
  *  Original link: https://javaforall.cn
- * @author Shengzong Dai (u7811526), Yuheng Li (u7810157)
  */
 public class ItemFragment extends Fragment implements AbsListView.OnScrollListener, AdapterView.OnItemClickListener {
 
@@ -114,7 +113,6 @@ public class ItemFragment extends Fragment implements AbsListView.OnScrollListen
 
     /**
      * Initialize the list of restaurants by fetching the initial data set from firestore by ItemDao.
-     * @author Shengzong Dai (u7811526)
      */
     private void initiateData() {
         itemDao.initialItemList(new DataCallback<List<Restaurant>>() {
@@ -143,7 +141,6 @@ public class ItemFragment extends Fragment implements AbsListView.OnScrollListen
 
     /**
      * Load more restaurant data by adding the next set of restaurants to the existing list.
-     * @author: Shengzong Dai (u7811526)
      */
     public void loadMoreData() {
         resList.addAll((List<Restaurant>) iterator.next());
@@ -154,7 +151,6 @@ public class ItemFragment extends Fragment implements AbsListView.OnScrollListen
      * @param view
      * @param i
      * @param l
-     * @author Yuheng Li(u7810157)
      * go to comment page
      */
     @Override

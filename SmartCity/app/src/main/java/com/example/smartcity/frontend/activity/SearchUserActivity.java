@@ -31,7 +31,6 @@ import com.google.firebase.firestore.Query;
 /**
  * SearchUserActivity allows users to search for other users by name.
  * It displays the search results in a RecyclerView and handles user interactions.
- * @author Rongze Gao(u7841935)
  */
 public class SearchUserActivity extends AppCompatActivity {
 

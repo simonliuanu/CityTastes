@@ -6,7 +6,6 @@ import com.example.smartcity.util.DataCallback;
 import java.util.List;
 
 /**
- * @author Shengzong Dai (u7811526)
  */
 public interface ItemDao {
 

@@ -11,7 +11,6 @@ import java.util.List;
  * It is used to store and manage data in a balanced binary search tree.
  * It supports generic data types that implement the Comparable interface by default.
  *
- * @author Rongze Gao(u7841935)
  * @param <T> the type of data to be stored in the AVL tree
  */
 public class AvlTree<T extends Comparable<T>> {

@@ -29,7 +29,6 @@ import java.util.ArrayList;
 /**
  * Represents the "Me" page in the application.
  *
- * @author Tinfa Zhu (u7615711), Shengzong Dai (u7811526), Yuheng Li (u7810157)
  */
 public class MeFragment extends Fragment implements LikeRestaurantObserver {
     View meView;
@@ -113,7 +112,6 @@ public class MeFragment extends Fragment implements LikeRestaurantObserver {
      * Filter the list of filter restaurants based on the selected type from the spinner.
      *
      * @param type The type of restaurant to filter by (e.g., "all", "bar", "cafe", "food", "lodging").
-     * @author Shengzong Dai (u7811526)
      */
     private void filterRestaurantsByType(String type) {
         filterRes.clear();
@@ -134,7 +132,6 @@ public class MeFragment extends Fragment implements LikeRestaurantObserver {
      * update the filter restaurant to show the page after removing the
      * corresponding restaurant
      *
-     * @author Shengzong Dai (u7811526)
      */
     @Override
     public void update() {

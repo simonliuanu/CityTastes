@@ -36,7 +36,6 @@ import java.util.List;
  *
  *  Reference:
  *      https://blog.csdn.net/qq_39402590/article/details/90473268
- * @author Shengzong Dai (u7811526)
  */
 public class ItemListAdapter extends ArrayAdapter<Restaurant> {
 

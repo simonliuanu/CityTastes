@@ -34,7 +34,6 @@ import com.firebase.ui.firestore.FirestoreRecyclerOptions;
  * Adapter for searching and displaying users in a RecyclerView.
  * This adapter binds user data to views for each user item,
  * allowing users to select a contact to initiate a chat.
- * @author Rongze Gao(u7841935)
  */
 public class SearchUserAdapter extends FirestoreRecyclerAdapter<User, SearchUserAdapter.UserView> {
 

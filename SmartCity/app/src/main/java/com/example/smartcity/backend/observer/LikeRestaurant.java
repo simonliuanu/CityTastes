@@ -13,7 +13,6 @@ import java.util.List;
  *
  * This class implements two design patterns: singleton pattern and observer pattern
  *
- * @author Shengzong Dai (u7811526)
  */
 public class LikeRestaurant extends ArrayList<Restaurant> implements Subject {
 

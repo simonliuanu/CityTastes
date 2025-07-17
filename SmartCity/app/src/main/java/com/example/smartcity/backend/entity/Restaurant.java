@@ -11,7 +11,6 @@ import java.util.List;
  * This class implements Serializable to allow the restaurant data to be serialized,
  * and Comparable to allow sorting based on restaurant names.
  *
- * @author Rongze Gao (u7841935), Shengzong Dai (u7811526), Simon Liu (u7761758)
  */
 public class Restaurant implements Serializable, Comparable<Restaurant> {
     private int id;
@@ -31,7 +30,6 @@ public class Restaurant implements Serializable, Comparable<Restaurant> {
 
     /**
      * used to set filter restaurants types
-     * @author Shengzong Dai (u7811526)
      */
     public enum RestaurantType {
         CAFE, LODGING, FOOD, BAR
@@ -143,7 +141,6 @@ public class Restaurant implements Serializable, Comparable<Restaurant> {
      *
      * @return the price level as an integer based on the estimated price string
      *
-     * @author Simon Liu (u7761758)
      */
     public int getPrice() {
         switch (estimated_price) {
@@ -219,7 +216,6 @@ public class Restaurant implements Serializable, Comparable<Restaurant> {
      * @return a negative integer, zero, or a positive integer as this restaurant
      *         is less than, equal to, or greater than the specified restaurant
      *
-     * @author Simon Liu (u7761758)
      */
     @Override
     public int compareTo(Restaurant other) {
@@ -230,7 +226,6 @@ public class Restaurant implements Serializable, Comparable<Restaurant> {
      * This function used to display the type
      * as ordinal data have some redundant types, we need filter them
      * @return restaurant type after filter
-     * @author Shengzong Dai (u7811526)
      */
     public String getDisplayedType() {
         StringBuilder typeBuilder = new StringBuilder();

@@ -72,7 +72,6 @@ import com.google.firebase.database.ValueEventListener;
  * MapFragment is responsible for displaying a map with restaurant markers. It handles the
  * initialization of the Google Map, loading restaurant data, displaying restaurant info
  * in custom info windows, and providing user location features.
- * @author Rongze Gao(u7841935)
  */
 public class MapFragment extends Fragment implements OnMapReadyCallback {
 
