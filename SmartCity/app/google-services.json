@@ -1,21 +1,22 @@
 {
   "project_info": {
-    "project_number": "153328531694",
-    "project_id": "smart-city-restaurant",
-    "storage_bucket": "smart-city-restaurant.appspot.com"
+    "project_number": "930288947584",
+    "firebase_url": "https://citytastes-81898-default-rtdb.firebaseio.com",
+    "project_id": "citytastes-81898",
+    "storage_bucket": "citytastes-81898.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:153328531694:android:46d61c7e8240061a4f1bff",
+        "mobilesdk_app_id": "1:930288947584:android:232cc9431f067a1071f165",
         "android_client_info": {
-          "package_name": "com.example.smartcity"
+          "package_name": "com.example.citytastes"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDpeYyRN45HtJhRWHKx-3-eHAVDPP1Z-ok"
+          "current_key": "AIzaSyAXCR4w18QSFq7ukF7tAE062ewNnr1tLEQ"
         }
       ],
       "services": {
